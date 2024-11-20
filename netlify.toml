@@ -1,0 +1,7 @@
+[build]
+  base = "/" # The base directory of your repo (usually `/` if your project is at the root)
+  publish = "build" # This is the folder that will be deployed
+  command = "npm run build" # Command to run your build process
+
+[build.environment]
+  NODE_VERSION = "16" # Or the version of Node.js you're using
